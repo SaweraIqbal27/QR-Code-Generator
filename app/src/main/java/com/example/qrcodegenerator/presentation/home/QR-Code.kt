@@ -83,7 +83,7 @@ fun QR() {
             value = text, onValueChange = {
                 text = it
             },
-            label = { Text(text = "Type Something",color = Color.Gray) },
+            label = { Text(text = "Write Something",color = Color.Gray) },
             colors = TextFieldDefaults.colors(
                 focusedContainerColor = Color.Transparent,
                 unfocusedContainerColor = Color.Transparent,
